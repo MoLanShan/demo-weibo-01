@@ -5,7 +5,7 @@ import cn.dd.job002.manager.DataLoadManager;
 public class SystemControler {
 	public static void main(String[] args) throws Exception {
 		if(args==null || args.length!=1){
-			System.out.println("usage: 至少需要输入一个源数据目录!");
+			System.out.println("usage: 最少需要输入一个源数据目录!");
 		}
 		String inputDir = args[0];
 		String inputCharset = "gbk";
